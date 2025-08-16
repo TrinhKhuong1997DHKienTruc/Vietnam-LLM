@@ -1,0 +1,12 @@
+Ticker: NVDA
+Date Generated: 2025-08-16
+
+Recent Performance:
+ - 1 Week return: -1.23%
+ - 1 Month return: 4.45%
+
+Forecast for next week: down by 1.23%
+
+Rationale:
+This is a simple momentum-based forecast using the average return of the past week. 
+No sophisticated machine learning or fundamental analysis is applied. Use with caution.

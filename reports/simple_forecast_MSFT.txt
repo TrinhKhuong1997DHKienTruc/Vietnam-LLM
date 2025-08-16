@@ -1,0 +1,12 @@
+Ticker: MSFT
+Date Generated: 2025-08-16
+
+Recent Performance:
+ - 1 Week return: -0.33%
+ - 1 Month return: 1.81%
+
+Forecast for next week: down by 0.33%
+
+Rationale:
+This is a simple momentum-based forecast using the average return of the past week. 
+No sophisticated machine learning or fundamental analysis is applied. Use with caution.
