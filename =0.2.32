@@ -1,0 +1,77 @@
+Collecting yfinance
+  Downloading yfinance-0.2.65-py2.py3-none-any.whl.metadata (5.8 kB)
+Requirement already satisfied: pandas>=1.3.0 in ./finrl_env/lib/python3.13/site-packages (from yfinance) (2.3.1)
+Requirement already satisfied: numpy>=1.16.5 in ./finrl_env/lib/python3.13/site-packages (from yfinance) (2.2.6)
+Collecting requests>=2.31 (from yfinance)
+  Downloading requests-2.32.4-py3-none-any.whl.metadata (4.9 kB)
+Collecting multitasking>=0.0.7 (from yfinance)
+  Downloading multitasking-0.0.12.tar.gz (19 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting platformdirs>=2.0.0 (from yfinance)
+  Downloading platformdirs-4.3.8-py3-none-any.whl.metadata (12 kB)
+Requirement already satisfied: pytz>=2022.5 in ./finrl_env/lib/python3.13/site-packages (from yfinance) (2025.2)
+Collecting frozendict>=2.3.4 (from yfinance)
+  Downloading frozendict-2.4.6-py313-none-any.whl.metadata (23 kB)
+Collecting peewee>=3.16.2 (from yfinance)
+  Downloading peewee-3.18.2.tar.gz (949 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 949.2/949.2 kB 70.6 MB/s  0:00:00
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting beautifulsoup4>=4.11.1 (from yfinance)
+  Downloading beautifulsoup4-4.13.4-py3-none-any.whl.metadata (3.8 kB)
+Collecting curl_cffi>=0.7 (from yfinance)
+  Downloading curl_cffi-0.13.0-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (13 kB)
+Requirement already satisfied: protobuf>=3.19.0 in ./finrl_env/lib/python3.13/site-packages (from yfinance) (6.32.0)
+Collecting websockets>=13.0 (from yfinance)
+  Downloading websockets-15.0.1-cp313-cp313-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.8 kB)
+Collecting soupsieve>1.2 (from beautifulsoup4>=4.11.1->yfinance)
+  Downloading soupsieve-2.7-py3-none-any.whl.metadata (4.6 kB)
+Requirement already satisfied: typing-extensions>=4.0.0 in ./finrl_env/lib/python3.13/site-packages (from beautifulsoup4>=4.11.1->yfinance) (4.14.1)
+Collecting cffi>=1.12.0 (from curl_cffi>=0.7->yfinance)
+  Downloading cffi-1.17.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (1.5 kB)
+Collecting certifi>=2024.2.2 (from curl_cffi>=0.7->yfinance)
+  Downloading certifi-2025.8.3-py3-none-any.whl.metadata (2.4 kB)
+Collecting pycparser (from cffi>=1.12.0->curl_cffi>=0.7->yfinance)
+  Downloading pycparser-2.22-py3-none-any.whl.metadata (943 bytes)
+Requirement already satisfied: python-dateutil>=2.8.2 in ./finrl_env/lib/python3.13/site-packages (from pandas>=1.3.0->yfinance) (2.9.0.post0)
+Requirement already satisfied: tzdata>=2022.7 in ./finrl_env/lib/python3.13/site-packages (from pandas>=1.3.0->yfinance) (2025.2)
+Requirement already satisfied: six>=1.5 in ./finrl_env/lib/python3.13/site-packages (from python-dateutil>=2.8.2->pandas>=1.3.0->yfinance) (1.17.0)
+Collecting charset_normalizer<4,>=2 (from requests>=2.31->yfinance)
+  Downloading charset_normalizer-3.4.3-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (36 kB)
+Collecting idna<4,>=2.5 (from requests>=2.31->yfinance)
+  Downloading idna-3.10-py3-none-any.whl.metadata (10 kB)
+Collecting urllib3<3,>=1.21.1 (from requests>=2.31->yfinance)
+  Downloading urllib3-2.5.0-py3-none-any.whl.metadata (6.5 kB)
+Downloading yfinance-0.2.65-py2.py3-none-any.whl (119 kB)
+Downloading beautifulsoup4-4.13.4-py3-none-any.whl (187 kB)
+Downloading curl_cffi-0.13.0-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (8.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.3/8.3 MB 214.0 MB/s  0:00:00
+Downloading certifi-2025.8.3-py3-none-any.whl (161 kB)
+Downloading cffi-1.17.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (479 kB)
+Downloading frozendict-2.4.6-py313-none-any.whl (16 kB)
+Downloading platformdirs-4.3.8-py3-none-any.whl (18 kB)
+Downloading requests-2.32.4-py3-none-any.whl (64 kB)
+Downloading charset_normalizer-3.4.3-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (151 kB)
+Downloading idna-3.10-py3-none-any.whl (70 kB)
+Downloading urllib3-2.5.0-py3-none-any.whl (129 kB)
+Downloading soupsieve-2.7-py3-none-any.whl (36 kB)
+Downloading websockets-15.0.1-cp313-cp313-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (182 kB)
+Downloading pycparser-2.22-py3-none-any.whl (117 kB)
+Building wheels for collected packages: multitasking, peewee
+  Building wheel for multitasking (setup.py): started
+  Building wheel for multitasking (setup.py): finished with status 'done'
+  Created wheel for multitasking: filename=multitasking-0.0.12-py3-none-any.whl size=15636 sha256=c49eb4a3e65851188806dcdae6334d8377ad21557e8addb70e26d1a9b991389b
+  Stored in directory: /home/ubuntu/.cache/pip/wheels/1e/df/0f/e2bbb22d689b30c681feb5410ab64a2523437b34c8ecfc6476
+  Building wheel for peewee (pyproject.toml): started
+  Building wheel for peewee (pyproject.toml): finished with status 'done'
+  Created wheel for peewee: filename=peewee-3.18.2-py3-none-any.whl size=139106 sha256=09f7b784b5892332d3420d013e9fe9cbaeb621db0b3462909aa5e7a83234e820
+  Stored in directory: /home/ubuntu/.cache/pip/wheels/1c/48/cc/00b7d0e7defa21a58915654917c89eaedd32a6e614d8e4ad92
+Successfully built multitasking peewee
+Installing collected packages: peewee, multitasking, websockets, urllib3, soupsieve, pycparser, platformdirs, idna, frozendict, charset_normalizer, certifi, requests, cffi, beautifulsoup4, curl_cffi, yfinance
+
+Successfully installed beautifulsoup4-4.13.4 certifi-2025.8.3 cffi-1.17.1 charset_normalizer-3.4.3 curl_cffi-0.13.0 frozendict-2.4.6 idna-3.10 multitasking-0.0.12 peewee-3.18.2 platformdirs-4.3.8 pycparser-2.22 requests-2.32.4 soupsieve-2.7 urllib3-2.5.0 websockets-15.0.1 yfinance-0.2.65
