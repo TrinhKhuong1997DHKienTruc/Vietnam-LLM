@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+  fin-o1-8b:
+    build: .
+    container_name: fin-o1-8b-demo
+    ports:
+      - "7860:7860"
+    volumes:
+      # Mount model directory to persist downloaded models
+      - ./fin-o1-8b:/app/fin-o1-8b
+      # Mount current directory for easy development
+      - .:/app
+    environment:
+      - GRADIO_SERVER_NAME=0.0.0.0
+      - GRADIO_SERVER_PORT=7860
+      - PYTHONPATH=/app
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:7860/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    deploy:
+      resources:
+        limits:
+          memory: 32G
+        reservations:
+          memory: 16G
+    # Uncomment the following lines if you have GPU support
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - driver: nvidia
+    #           count: 1
+    #           capabilities: [gpu]
