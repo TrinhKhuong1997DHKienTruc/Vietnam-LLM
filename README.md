@@ -1,5 +1,29 @@
+# Quickstart (Python 3.13) - MSFT & NVDA Next-Week Forecast Demo
+
+- Create and activate a virtual environment (Linux/Mac):
+  - python3 -m venv .venv
+  - source .venv/bin/activate
+
+- Install:
+  - pip install --upgrade pip
+  - pip install -r requirements.txt
+
+- Configure API keys:
+  - cp .env.example .env
+  - Edit .env and set FMP_API_KEY
+
+- Run demo:
+  - python demo_forecast_next_week.py --symbols MSFT,NVDA --out_dir reports
+
+- Outputs:
+  - reports/MSFT_forecast_next_week.csv
+  - reports/NVDA_forecast_next_week.csv
+  - reports/summary.json
+
+---
+
 <div align="center">
-<img align="center" width="30%" alt="image" src="https://github.com/AI4Finance-Foundation/FinGPT/assets/31713746/e0371951-1ce1-488e-aa25-0992dafcc139">
+<img align="center" width="30%" alt="image" src="https://github.com/AI4Finance-Foundation/FinRL/assets/31713746/e0371951-1ce1-488e-aa25-0992dafcc139">
 </div>
 
 # FinRL for trading

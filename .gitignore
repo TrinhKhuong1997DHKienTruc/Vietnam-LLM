@@ -134,3 +134,24 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Local environments and secrets
+.env
+.env.*
+*.env
+
+# Results and outputs
+result/
+results/
+output/
+outputs/
+*.pickle
+
+# Virtual environments
+.venv/
+venv/
+
+# OS/Editor
+.DS_Store
+.idea/
+.vscode/

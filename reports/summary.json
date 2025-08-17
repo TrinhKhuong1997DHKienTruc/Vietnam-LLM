@@ -1,0 +1,20 @@
+{
+  "MSFT": {
+    "metrics": {
+      "val_mae_rf": 0.013602544884887173,
+      "val_mae_xgb": 0.012226968788380397,
+      "best_model": "XGBoost",
+      "last_close": 516.8110466444492
+    },
+    "report_csv": "/workspace/FinRL-Trading/reports/MSFT_forecast_next_week.csv"
+  },
+  "NVDA": {
+    "metrics": {
+      "val_mae_rf": 0.019686789975585803,
+      "val_mae_xgb": 0.01929472804100345,
+      "best_model": "XGBoost",
+      "last_close": 181.46543372692076
+    },
+    "report_csv": "/workspace/FinRL-Trading/reports/NVDA_forecast_next_week.csv"
+  }
+}
