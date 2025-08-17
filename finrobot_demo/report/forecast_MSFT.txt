@@ -1,0 +1,14 @@
+Ticker: MSFT
+
+Positives:
+- 2025-08-17: Coca-Cola, Amazon, Google, And Nvidia Have Used This Startup's AI Avatars — Inside Jeff Lu's $40M Rise To America's Fastest-Growing Company
+- 2025-08-17: The Best Growth Stock ETF to Invest $100 in Right Now
+- 2025-08-17: Five Things Fed Chair Powell Might Address At Jackson Hole
+- 2025-08-17: These 3 Artificial Intelligence (AI) Stocks Could Soar 45% or More Over the Next 12 Months, According to Wall Street
+
+Concerns:
+- Macro/valuation and execution risks remain relevant for MSFT.
+
+Next week: down ~2.0%
+
+Rationale: Recent price trend (1-week: -0.31%) and news tone suggest a down bias. However, this is a rough directional view; key catalysts and macro drivers can shift direction. Position sizing and risk management are advised.
