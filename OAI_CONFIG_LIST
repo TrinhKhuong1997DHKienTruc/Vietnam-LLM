@@ -1,23 +1,23 @@
 [
     {
-        "model": "gpt-4-0125-preview",
-        "api_key": "<your OpenAI API key here>"
+        "model": "gpt-5-mini-2025-08-07",
+        "api_key": "YOUR_OPENAI_API_KEY_HERE"
     },
     {
-        "model": "gpt-4-1106-vision-preview",
-        "api_key": "<your OpenAI API key here>"
+        "model": "gpt-5-mini-2025-08-07",
+        "api_key": "YOUR_OPENAI_API_KEY_HERE"
     },
     {
-        "model": "<your Azure OpenAI deployment name>",
-        "api_key": "<your Azure OpenAI API key here>",
-        "base_url": "<your Azure OpenAI API base here>",
+        "model": "gpt-5-mini-2025-08-07",
+        "api_key": "YOUR_OPENAI_API_KEY_HERE",
+        "base_url": "YOUR_BASE_URL_HERE",
         "api_type": "azure",
         "api_version": "2024-02-15-preview"
     },
     {
-        "model": "<your Azure OpenAI deployment name>",
-        "api_key": "<your Azure OpenAI API key here>",
-        "base_url": "<your Azure OpenAI API base here>",
+        "model": "gpt-5-mini-2025-08-07",
+        "api_key": "YOUR_OPENAI_API_KEY_HERE",
+        "base_url": "YOUR_BASE_URL_HERE",
         "api_type": "azure",
         "api_version": "2024-02-15-preview"
     }
