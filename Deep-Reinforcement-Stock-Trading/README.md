@@ -1,12 +1,8 @@
-# Vietnam LLM - Deep Reinforcement Learning Stock Trading System
+# Deep Reinforcement Learning Stock Trading System
 
 A comprehensive deep reinforcement learning system for stock trading and forecasting, featuring multiple AI models (DQN, DDQN, DDPG) with real-time stock data analysis and portfolio optimization.
 
-## 🚀 Project Overview
-
-This repository contains an advanced Deep Reinforcement Learning (DRL) system for stock trading and forecasting, originally developed by [Albert-Z-Guo](https://github.com/Albert-Z-Guo/Deep-Reinforcement-Stock-Trading) and enhanced for modern Python compatibility and comprehensive reporting.
-
-## 📊 Features
+## 🚀 Features
 
 - **Multiple AI Models**: DQN, DDQN, and DDPG reinforcement learning agents
 - **Real-time Stock Data**: Integration with multiple financial data APIs
@@ -14,29 +10,36 @@ This repository contains an advanced Deep Reinforcement Learning (DRL) system fo
 - **Comprehensive Reporting**: Detailed performance metrics and visualizations
 - **Multi-stock Support**: Analyze and forecast multiple stocks simultaneously
 - **Python 3.14 Compatible**: Updated dependencies for modern Python versions
-- **Cross-platform**: Works on both Windows and Linux systems
 
-## 🏗️ Project Structure
+## 📊 Supported Stocks
+
+- **MSFT** (Microsoft Corporation)
+- **NVDA** (NVIDIA Corporation)
+- **Custom stocks** via CSV data files
+
+## 🏗️ Architecture
 
 ```
-Vietnam-LLM/
-├── Deep-Reinforcement-Stock-Trading/     # Main DRL trading system
-│   ├── agents/                           # AI model implementations
-│   ├── data/                             # Stock data files
-│   ├── reports/                          # Generated forecasting reports
-│   ├── saved_models/                     # Trained model checkpoints
-│   ├── visualizations/                   # Performance charts
-│   ├── config.py                         # Configuration and API keys
-│   ├── download_stock_data.py            # Stock data downloader
-│   ├── forecast_stocks.py                # Main forecasting script
-│   ├── train.py                          # Model training script
-│   ├── evaluate.py                       # Model evaluation script
-│   ├── utils.py                          # Utility functions
-│   └── requirements.txt                  # Python dependencies
-└── README.md                             # This file
+Deep-Reinforcement-Stock-Trading/
+├── agents/                 # AI model implementations
+│   ├── DQN.py            # Deep Q-Network agent
+│   ├── DDQN.py           # Double Deep Q-Network agent
+│   └── DDPG.py           # Deep Deterministic Policy Gradient agent
+├── data/                  # Stock data files
+├── logs/                  # Training and evaluation logs
+├── reports/               # Generated forecasting reports
+├── saved_models/          # Trained model checkpoints
+├── visualizations/        # Performance charts and graphs
+├── config.py              # Configuration and API keys
+├── download_stock_data.py # Stock data downloader
+├── forecast_stocks.py     # Main forecasting script
+├── train.py               # Model training script
+├── evaluate.py            # Model evaluation script
+├── utils.py               # Utility functions
+└── requirements.txt       # Python dependencies
 ```
 
-## 🛠️ Quick Start
+## 🛠️ Installation
 
 ### Prerequisites
 
@@ -44,7 +47,7 @@ Vietnam-LLM/
 - pip package manager
 - Git
 
-### Installation
+### Quick Start
 
 1. **Clone the repository**
    ```bash
@@ -52,35 +55,29 @@ Vietnam-LLM/
    cd Vietnam-LLM/Deep-Reinforcement-Stock-Trading
    ```
 
-2. **Create virtual environment**
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-
-3. **Install dependencies**
+2. **Install dependencies**
    ```bash
    pip install -r requirements.txt
    ```
 
-4. **Download stock data**
+3. **Download stock data**
    ```bash
    python download_stock_data.py
    ```
 
-5. **Run forecasting models**
+4. **Run forecasting models**
    ```bash
    python forecast_stocks.py
    ```
 
-## 📈 Usage Examples
+## 📈 Usage
 
 ### Training Models
 
 Train a specific model on stock data:
 
 ```bash
-python train.py --model_name DQN --stock_name MSFT_2023-01-01_2025-08-25 --num_episode 20
+python train.py --model_name DQN --stock_name MSFT_2023-01-01_2024-12-31 --num_episode 20
 ```
 
 ### Evaluating Models
@@ -88,7 +85,7 @@ python train.py --model_name DQN --stock_name MSFT_2023-01-01_2025-08-25 --num_e
 Evaluate a trained model:
 
 ```bash
-python evaluate.py --model_to_load DQN_ep20 --stock_name MSFT_2023-01-01_2025-08-25
+python evaluate.py --model_to_load DQN_ep20 --stock_name MSFT_2023-01-01_2024-12-31
 ```
 
 ### Running Full Forecast
@@ -101,23 +98,17 @@ python forecast_stocks.py
 
 ## 🔧 Configuration
 
-### API Keys Setup
+### API Keys
 
-1. Copy `config.py.example` to `config.py`
-2. Add your API keys:
-   ```python
-   OPENAI_CONFIG = {
-       "model": "your-model-name",
-       "api_key": "your-openai-api-key",
-       "base_url": "your-base-url"
-   }
-   
-   FINANCIAL_APIS = {
-       "FINNHUB_API_KEY": "your-finnhub-key",
-       "FMP_API_KEY": "your-fmp-key",
-       "SEC_API_KEY": "your-sec-key"
-   }
-   ```
+The system supports multiple financial data APIs. Configure them in `config.py`:
+
+```python
+FINANCIAL_APIS = {
+    "FINNHUB_API_KEY": "your_finnhub_key",
+    "FMP_API_KEY": "your_fmp_key", 
+    "SEC_API_KEY": "your_sec_key"
+}
+```
 
 ### Trading Parameters
 
@@ -132,7 +123,7 @@ TRADING_CONFIG = {
 }
 ```
 
-## 📊 Model Performance
+## 📊 Model Performance Metrics
 
 The system provides comprehensive performance analysis:
 
@@ -151,17 +142,11 @@ The system provides comprehensive performance analysis:
 - `MSFT_portfolio_performance.png` - MSFT performance chart
 - `NVDA_portfolio_performance.png` - NVDA performance chart
 
-### Sample Results
+### Logs Directory
 
-**MSFT Forecast (2025-08-18):**
-- DDPG Model: +$3,294.80 return
-- 5-day prediction: $502.55 (downward trend)
-- Recommendation: Consider MSFT based on DDPG performance
-
-**NVDA Forecast (2025-08-18):**
-- DDQN Model: +$1,814.30 return
-- 5-day prediction: $181.20 (slight downward trend)
-- Recommendation: Consider NVDA based on DDQN performance
+- Training logs with detailed episode information
+- Evaluation logs with performance metrics
+- Error logs for debugging
 
 ## 🎯 Model Comparison
 
@@ -214,19 +199,9 @@ For questions and support:
 
 ## 🔄 Updates
 
-- **v2.0**: Python 3.14 compatibility, enhanced reporting, MSFT/NVDA forecasting
+- **v2.0**: Python 3.14 compatibility, enhanced reporting
 - **v1.0**: Original implementation with basic models
-
-## 🌟 Key Achievements
-
-✅ **Successfully implemented** Deep Reinforcement Learning for stock trading  
-✅ **Generated comprehensive reports** for MSFT and NVDA stocks  
-✅ **Updated dependencies** for Python 3.14 compatibility  
-✅ **Fixed compatibility issues** with modern TensorFlow/Keras  
-✅ **Created cross-platform solution** for Windows and Linux users  
 
 ---
 
 **Happy Trading! 📈💰**
-
-*Built with ❤️ for the Vietnam LLM community*

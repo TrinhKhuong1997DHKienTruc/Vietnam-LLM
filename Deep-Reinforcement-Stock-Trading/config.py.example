@@ -1,0 +1,33 @@
+# Configuration file for Deep Reinforcement Stock Trading
+# Copy this file to config.py and add your API keys
+
+# OpenAI API Configuration
+OPENAI_CONFIG = {
+    "model": "gpt-5-mini-2025-08-07",
+    "api_key": "YOUR_OPENAI_API_KEY_HERE",
+    "base_url": "YOUR_BASE_URL_HERE"
+}
+
+# Financial Data API Keys
+FINANCIAL_APIS = {
+    "FINNHUB_API_KEY": "YOUR_FINNHUB_API_KEY_HERE",
+    "FMP_API_KEY": "YOUR_FMP_API_KEY_HERE", 
+    "SEC_API_KEY": "YOUR_SEC_API_KEY_HERE"
+}
+
+# Trading Configuration
+TRADING_CONFIG = {
+    "default_initial_balance": 50000,
+    "default_window_size": 10,
+    "default_episodes": 10,
+    "risk_free_rate": 0.0275  # 2.75% annual Treasury bond rate
+}
+
+# Model Configuration
+MODEL_CONFIG = {
+    "state_dim": 13,  # window_size + 3 (price state + portfolio state)
+    "action_dim": 3,  # Hold, Buy, Sell
+    "learning_rate": 0.001,
+    "epsilon": 0.1,
+    "gamma": 0.95
+}

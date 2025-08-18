@@ -1,0 +1,44 @@
+STOCK FORECASTING REPORT - NVDA
+============================================================
+Generated on: 2025-08-18 19:54:03
+Data period: 658 trading days
+Initial balance: $50,000.00
+Window size: 10 days
+
+MODEL PERFORMANCE COMPARISON
+----------------------------------------
+
+DQN:
+  Final Portfolio Value: $50,724.69
+  Total Return: $724.69
+  Average Return per Episode: $1,475.42
+  Sharpe Ratio: 0.0000
+  Maximum Drawdown: -0.83%
+
+DDQN:
+  Final Portfolio Value: $51,814.30
+  Total Return: $1,814.30
+  Average Return per Episode: $2,152.09
+  Sharpe Ratio: 0.0000
+  Maximum Drawdown: -2.27%
+
+DDPG:
+  Final Portfolio Value: $50,306.53
+  Total Return: $306.53
+  Average Return per Episode: $560.11
+  Sharpe Ratio: 0.0000
+  Maximum Drawdown: -0.66%
+
+============================================================
+FORECAST FOR NEXT WEEK
+----------------------------------------
+Recent 5-day trend: DOWNWARD
+Trend slope: -0.2529
+Current price: $182.47
+Predicted price in 5 days: $181.20
+Predicted change: $-1.26 (-0.69%)
+
+RECOMMENDATIONS
+----------------------------------------
+✅ RECOMMENDATION: Consider NVDA based on DDQN model performance
+   The DDQN model achieved a positive return of $1,814.30

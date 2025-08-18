@@ -1,0 +1,44 @@
+STOCK FORECASTING REPORT - MSFT
+============================================================
+Generated on: 2025-08-18 19:51:25
+Data period: 658 trading days
+Initial balance: $50,000.00
+Window size: 10 days
+
+MODEL PERFORMANCE COMPARISON
+----------------------------------------
+
+DQN:
+  Final Portfolio Value: $52,936.94
+  Total Return: $2,936.94
+  Average Return per Episode: $1,999.21
+  Sharpe Ratio: 0.0000
+  Maximum Drawdown: -4.52%
+
+DDQN:
+  Final Portfolio Value: $52,859.65
+  Total Return: $2,859.65
+  Average Return per Episode: $2,664.49
+  Sharpe Ratio: 0.0000
+  Maximum Drawdown: -3.62%
+
+DDPG:
+  Final Portfolio Value: $53,294.80
+  Total Return: $3,294.80
+  Average Return per Episode: $2,998.66
+  Sharpe Ratio: 0.0000
+  Maximum Drawdown: -1.66%
+
+============================================================
+FORECAST FOR NEXT WEEK
+----------------------------------------
+Recent 5-day trend: DOWNWARD
+Trend slope: -2.6890
+Current price: $516.00
+Predicted price in 5 days: $502.55
+Predicted change: $-13.45 (-2.61%)
+
+RECOMMENDATIONS
+----------------------------------------
+✅ RECOMMENDATION: Consider MSFT based on DDPG model performance
+   The DDPG model achieved a positive return of $3,294.80
