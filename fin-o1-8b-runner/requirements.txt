@@ -1,0 +1,14 @@
+transformers
+accelerate
+huggingface_hub
+safetensors
+sentencepiece
+protobuf
+numpy
+requests
+urllib3
+tqdm
+colorama; platform_system=="Windows"
+
+# Optional: use Hugging Face Inference API for remote execution
+huggingface_hub[inference]
