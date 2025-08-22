@@ -35,6 +35,7 @@ def load_model(model_id: str, load_in_4bit: bool, device: Optional[str]):
                 device_map="auto",
                 quantization_config=bnb_config,
                 torch_dtype=torch_dtype,
+                low_cpu_mem_usage=True,
                 **kwargs,
             )
         except Exception as e:
@@ -42,11 +43,24 @@ def load_model(model_id: str, load_in_4bit: bool, device: Optional[str]):
 
     if is_cuda:
         return AutoModelForCausalLM.from_pretrained(
-            model_id, device_map="auto", torch_dtype=torch_dtype, **kwargs
+            model_id,
+            device_map="auto",
+            torch_dtype=torch_dtype,
+            low_cpu_mem_usage=True,
+            **kwargs,
         )
 
-    # CPU fallback (may require substantial RAM)
-    return AutoModelForCausalLM.from_pretrained(model_id, torch_dtype=torch_dtype, **kwargs)
+    # CPU fallback (offload to disk to reduce RAM peaks)
+    offload_dir = os.path.join(os.getcwd(), "offload")
+    os.makedirs(offload_dir, exist_ok=True)
+    return AutoModelForCausalLM.from_pretrained(
+        model_id,
+        device_map="cpu",
+        torch_dtype=torch_dtype,
+        low_cpu_mem_usage=True,
+        offload_folder=offload_dir,
+        **kwargs,
+    )
 
 
 def run_local(model_id: str, prompt: str, max_new_tokens: int, temperature: float, top_p: float, load_in_4bit: bool, device: Optional[str]):
