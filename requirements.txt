@@ -1,0 +1,13 @@
+# Core libraries (Python 3.13 compatible)
+# Install PyTorch separately per platform (see README), then install these:
+transformers>=4.43,<5
+huggingface-hub>=0.24.0
+safetensors>=0.4.3
+tokenizers>=0.20.3
+accelerate>=0.33.0
+
+# Optional: quantization (Linux/macOS only; Windows wheels are not officially provided)
+bitsandbytes>=0.43.0; platform_system != "Windows"
+
+# Note: torch is intentionally not pinned here due to platform-specific wheels.
+# Use the PyTorch selector to install the proper torch build for your OS/GPU.
