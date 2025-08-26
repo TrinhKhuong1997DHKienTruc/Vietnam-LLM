@@ -1,0 +1,12 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+# Core
+torch>=2.5.1
+transformers>=4.45.0
+accelerate>=1.0.0
+safetensors>=0.4.5
+huggingface_hub>=0.25.2
+
+# Optional: GPU 4-bit quantization (only installs on x86_64/AMD64 Linux/Windows)
+# This line is ignored on other platforms via environment markers.
+bitsandbytes>=0.43.3; ((platform_system == "Linux") or (platform_system == "Windows")) and ((platform_machine == "x86_64") or (platform_machine == "AMD64"))
