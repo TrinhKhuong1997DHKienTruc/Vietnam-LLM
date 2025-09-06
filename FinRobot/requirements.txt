@@ -1,0 +1,23 @@
+# Core dependencies for FinRobot
+pyautogen>=0.2.19
+requests>=2.31.0
+pandas>=2.1.0
+numpy>=1.26.4
+
+# Financial data APIs
+finnhub-python
+yfinance
+sec_api
+
+# Data processing and visualization
+matplotlib
+mplfinance
+backtrader
+
+# AI and machine learning
+openai>=1.66.2
+langchain>=0.1.20
+
+# Utilities
+python-dotenv
+aiohttp>=3.9.0

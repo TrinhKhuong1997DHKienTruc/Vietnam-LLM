@@ -1,0 +1,10 @@
+pyautogen>=0.2.19
+ipython
+matplotlib
+numpy>=1.26.4
+pandas>=2.1.0
+finnhub-python
+yfinance
+sec_api
+requests>=2.31.0
+aiohttp>=3.9.0

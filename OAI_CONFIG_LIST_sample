@@ -1,0 +1,10 @@
+[
+    {
+        "model": "gpt-5-mini-2025-08-07",
+        "api_key": "YOUR_OPENAI_API_KEY_HERE"
+    },
+    {
+        "model": "gpt-4o-mini",
+        "api_key": "YOUR_OPENAI_API_KEY_HERE"
+    }
+]
