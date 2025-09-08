@@ -1,0 +1,13 @@
+# Local env
+.env
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.build/
+.venv/
+venv/
+.env.*
+# Data and reports (kept at repo root demo_reports/)
+/reports/
