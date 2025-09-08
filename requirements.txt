@@ -1,16 +1,26 @@
-# Core dependencies for Chronos-Bolt AAPL prediction
-torch>=2.0.0
-transformers>=4.30.0
-numpy>=1.21.0
-pandas>=1.3.0
-matplotlib>=3.5.0
-scikit-learn>=1.0.0
-yfinance>=0.2.0
+# Core ML/LLM stack
+transformers>=4.44.2
+accelerate>=0.34.2
+safetensors>=0.4.5
+# Torch: pin to a modern release with Python 3.13 wheels
+# For CUDA users, install the appropriate CUDA build if needed (see README)
+torch==2.5.1
 
-# Chronos forecasting library
-git+https://github.com/amazon-science/chronos-forecasting.git
+# Data and utils
+numpy>=1.26.0
+pandas>=2.2.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+requests>=2.31.0
+tqdm>=4.66.0
+python-dateutil>=2.8.2
 
-# Additional utilities
-tqdm>=4.64.0
-requests>=2.28.0
+# Finance data
+yfinance>=0.2.50
+pandas_market_calendars>=4.4.1
 
+# Optional but often required by HF
+sentencepiece>=0.2.0
+
+# Windows terminal colors (optional)
+colorama>=0.4.6

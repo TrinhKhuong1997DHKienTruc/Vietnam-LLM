@@ -1,4 +1,23 @@
-*
-!*/*
-!chronos-nvda-demo/
-!.gitignore
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+.env
+.DS_Store
+Thumbs.db
+.cache/
+.dist/
+/build/
+/.ipynb_checkpoints/
+/*.log
+
+# Hugging Face caches
+~/.cache/huggingface/
+
+# Large model shards (keep local Fin-o1-8B folder but ignore safetensors if needed)
+Fin-o1-8B/*.safetensors
+Fin-o1-8B/*.bin
+Fin-o1-8B/*.pt
