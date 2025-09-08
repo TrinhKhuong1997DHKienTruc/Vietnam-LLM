@@ -1,0 +1,7 @@
+2025-09-04 02:21:46,910 - ERROR - 
+1 Failed download:
+2025-09-04 02:21:46,910 - ERROR - ['AAPL']: ValueError('unconverted data remains: T19:21:46.859740')
+2025-09-04 02:23:33,671 - INFO - Starting AAPL 14-Day Hourly Price Prediction
+2025-09-04 02:23:35,178 - ERROR - Error during execution: ChronosConfig.__init__() got an unexpected keyword argument 'input_patch_size'
+2025-09-04 02:23:57,692 - INFO - Starting AAPL 14-Day Hourly Price Prediction
+2025-09-04 02:23:58,798 - ERROR - Error during execution: ChronosConfig.__init__() got an unexpected keyword argument 'input_patch_size'

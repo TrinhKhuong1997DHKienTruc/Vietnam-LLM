@@ -1,0 +1,141 @@
+1) Download to local, build and run demo with results as full report in the Market Forecaster Agent (Predict Stock Movements Direction) section: https://github.com/AI4Finance-Foundation/FinRobot/blob/master/README.md
+Update requirements and dependencies fit Python version 3.13
+
+Fill in my info at section "4. modify OAI_CONFIG_LIST_sample file"
+"model": "gpt-5-mini-2025-08-07",
+"api_key": "sk-5yGV27gpBpnXz65NpT7u7bmtkyIJwV3z5J5vcW5psa4ajuz6"
+Base_URL: https://v98store.com/
+
+"model": "gemini-2.5-pro",
+"api_key": "AIzaSyBvFHj6LoqzAQhZ48mgIUiWcAU7FKP0lW0"
+
+Fill in my info at section "5. modify config_api_keys_sample file" with my APIs
+"FINNHUB_API_KEY": "d2f362hr01qj3egqupi0d2f362hr01qj3egqupig",
+"FMP_API_KEY": "rV9HRuyOwhB5Qn2QbQhuMpOaoZFjC9V8",
+"SEC_API_KEY": "26fb31d3f5e4bd54bfb90de8af6df6cfcec1cb05688eec625c97abdb6c4e8981",
+
+2) Use full model, build and run to demo for me to predict AAPL stock price for next 14 days. Also, create a demo folder to contain all the reports exported from this model.
+
+3) Push a full, prepared version to my GitHub, so that others using Windows or Linux accessing my branch can run and use this FinRobot model immediately just by clicking the 'Download Zip' button on my branch. Delete my "api_key" and Base_URL before push cause that is my private key. My GitHub repo url https://github.com/TrinhKhuong1997DHKienTruc/Vietnam-LLM.git. Please create a new README for this project and update the information accordingly.
+
+===== ===== ===== ===== =====
+
+1) Download to local, build and run demo: @https://github.com/AI4Finance-Foundation/FinRL-Trading
+Update requirements and dependencies fit Python version 3.13
+
+Add my API information when needed:
+"model": "gpt-5-mini-2025-08-07",
+"api_key": "sk-5yGV27gpBpnXz65NpT7u7bmtkyIJwV3z5J5vcW5psa4ajuz6"
+Base_URL: https://v98store.com/
+
+"FINNHUB_API_KEY": "d2f362hr01qj3egqupi0d2f362hr01qj3egqupig",
+"FMP_API_KEY": "rV9HRuyOwhB5Qn2QbQhuMpOaoZFjC9V8",
+"SEC_API_KEY": "26fb31d3f5e4bd54bfb90de8af6df6cfcec1cb05688eec625c97abdb6c4e8981",
+
+2) Use full model, build and run to demo for me to predict AAPL stock price for next 14 days. Also, create a demo folder to contain all the reports exported from this model.
+
+3) Push a full, prepared version to my GitHub, so that others both using Windows or Linux accessing my branch can run and use this FinRL model immediately just by clicking the 'Download Zip' button on my branch. Delete my "api_key" and Base_URL before push cause that is my private key. My GitHub repo url https://github.com/TrinhKhuong1997DHKienTruc/Vietnam-LLM.git. Please create a new README for this project and update the information accordingly.
+
+===== ===== ===== ===== =====
+
+1) Download to local, build and run demo: @https://github.com/Albert-Z-Guo/Deep-Reinforcement-Stock-Trading
+Update requirements and dependencies fit Python version 3.13
+
+Add my API information when needed:
+"model": "gpt-5-mini-2025-08-07",
+"api_key": "sk-5yGV27gpBpnXz65NpT7u7bmtkyIJwV3z5J5vcW5psa4ajuz6"
+Base_URL: https://v98store.com/
+
+"model": "gemini-2.5-pro",
+"api_key": "AIzaSyBvFHj6LoqzAQhZ48mgIUiWcAU7FKP0lW0"
+
+"FINNHUB_API_KEY": "d2f362hr01qj3egqupi0d2f362hr01qj3egqupig",
+"FMP_API_KEY": "rV9HRuyOwhB5Qn2QbQhuMpOaoZFjC9V8",
+"SEC_API_KEY": "26fb31d3f5e4bd54bfb90de8af6df6cfcec1cb05688eec625c97abdb6c4e8981",
+
+2) Use full model, build and run to demo for me to predict AAPL stock price for next 14 days. Also, create a demo folder to contain all the reports exported from this model.
+
+3) Push a full, prepared version to my GitHub, so that others both using Windows or Linux accessing my branch can run and use this Deep-Reinforcement-Stock model immediately just by clicking the 'Download Zip' button on my branch. Delete my "api_key" and Base_URL before push cause that is my private key. My GitHub repo url https://github.com/TrinhKhuong1997DHKienTruc/Vietnam-LLM.git. Please create a new README for this project and update the information accordingly.
+
+===== ===== ===== ===== =====
+
+1) Download to local, build and run demo: @https://github.com/sinanw/lstm-stock-price-prediction
+Update requirements and dependencies fit Python version 3.13
+
+Add my API information when needed:
+"model": "gpt-5-mini-2025-08-07",
+"api_key": "sk-5yGV27gpBpnXz65NpT7u7bmtkyIJwV3z5J5vcW5psa4ajuz6"
+Base_URL: https://v98store.com/
+
+"model": "gemini-2.5-pro",
+"api_key": "AIzaSyBvFHj6LoqzAQhZ48mgIUiWcAU7FKP0lW0"
+
+"FINNHUB_API_KEY": "d2f362hr01qj3egqupi0d2f362hr01qj3egqupig",
+"FMP_API_KEY": "rV9HRuyOwhB5Qn2QbQhuMpOaoZFjC9V8",
+"SEC_API_KEY": "26fb31d3f5e4bd54bfb90de8af6df6cfcec1cb05688eec625c97abdb6c4e8981",
+
+2) Use full model, build and run to demo for me to predict AAPL stock price for next 14 days. Also, create a demo folder to contain all the reports exported from this model.
+
+3) Push a full, prepared version to my GitHub, so that others both using Windows or Linux accessing my branch can run and use this LSTM model immediately just by clicking the 'Download Zip' button on my branch. Delete my "api_key" and Base_URL before push cause that is my private key. My GitHub repo url https://github.com/TrinhKhuong1997DHKienTruc/Vietnam-LLM.git. Please create a new README for this project and update the information accordingly.
+
+===== ===== ===== ===== =====
+
+1) Download to my PC, build and run: @https://huggingface.co/TheFinAI/Fin-o1-8B
+Update requirements and dependencies fit Python version 3.13
+
+2) Use Fin-o1 full model, build and run to demo for me to predict AAPL stock price for next 14 days. Also, create a demo folder to contain all the reports exported from this model.
+
+3) Push a full, prepared version to my GitHub, so that others using Windows or Linux accessing my branch can run and use this Fin-o1 model immediately just by clicking the 'Download Zip' button on my branch. My GitHub repo url https://github.com/TrinhKhuong1997DHKienTruc/Vietnam-LLM.git. Please create a new README for this project and update the information accordingly.
+
+===== ===== ===== ===== =====
+1) Download to my PC, build and run: @https://wellsr.com/python/time-series-prediction-with-hugging-face-transformer/
+but with amazon/chronos-bolt-base model @https://huggingface.co/amazon/chronos-bolt-base
+
+2) Use Chronos-Bolt base full model, build and run to demo for me to predict AAPL stock price for next 14 days. Also, create a demo folder to contain all the reports exported from this model.
+
+3) Push a full, prepared version to my GitHub, so that others using Windows or Linux accessing my branch can run and use this Chronos-Bolt model immediately just by clicking the 'Download Zip' button on my branch. My GitHub repo url https://github.com/TrinhKhuong1997DHKienTruc/Vietnam-LLM.git. Please create a new README for this project and update the information accordingly.
+
+===== ===== ===== ===== =====
+1) Download to local, build and run demo: @https://github.com/MingyuJ666/Stockagent
+Update requirements and dependencies fit Python version 3.13
+
+Add my API information when needed:
+"model": "gpt-5-mini-2025-08-07",
+"api_key": "sk-5yGV27gpBpnXz65NpT7u7bmtkyIJwV3z5J5vcW5psa4ajuz6"
+Base_URL: https://v98store.com/
+
+"model": "gemini-2.5-pro",
+"api_key": "AIzaSyBvFHj6LoqzAQhZ48mgIUiWcAU7FKP0lW0"
+
+"FINNHUB_API_KEY": "d2f362hr01qj3egqupi0d2f362hr01qj3egqupig",
+"FMP_API_KEY": "rV9HRuyOwhB5Qn2QbQhuMpOaoZFjC9V8",
+"SEC_API_KEY": "26fb31d3f5e4bd54bfb90de8af6df6cfcec1cb05688eec625c97abdb6c4e8981",
+
+2) Use full model, build and run to demo for me to predict AAPL stock price for next 14 days. Also, create a demo folder to contain all the reports exported from this model.
+
+3) Push a full, prepared version to my GitHub, so that others both using Windows or Linux accessing my branch can run and use this LSTM model immediately just by clicking the 'Download Zip' button on my branch. Delete my "api_key" and Base_URL before push cause that is my private key. My GitHub repo url https://github.com/TrinhKhuong1997DHKienTruc/Vietnam-LLM.git. Please create a new README for this project and update the information accordingly.
+
+===== ===== ===== ===== =====
+===== ===== ===== ===== =====
+
+# Interactive Feedback Rule
+
+**Always Use Interactive Feedback for Questions:**
+- Before asking the user any clarifying questions, call `mcp_interactive-feedback-mcp_interactive_feedback`
+- Provide the current project directory and a summary of what you need clarification on
+- Wait for the interactive feedback response before proceeding
+
+**Always Use Interactive Feedback Before Completion:**
+- Before completing any user request, call `mcp_interactive-feedback-mcp_interactive_feedback`
+- Provide the current project directory and a summary of what was accomplished
+- If the feedback response is empty, you can complete the request without calling the MCP again
+- If feedback is provided, address it before completing the request
+
+**Required Parameters:**
+- `project_directory`: Full absolute path to the project directory  
+- `summary`: Short, one-line summary of the question or completed work
+
+===== ===== =====
+
+Translation the Thought, Description and explanation in Vietnamese, but leave the specialized vocabulary in English.
+
